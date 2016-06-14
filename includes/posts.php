@@ -4,7 +4,7 @@
  * User: Cathy
  * Date: 6/12/2016
  * Time: 10:09 PM
- */
+ ******/
 
 require_once('database.php');
 class Blog{
