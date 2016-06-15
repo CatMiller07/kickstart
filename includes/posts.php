@@ -7,6 +7,10 @@
  ******/
 
 require_once('database.php');
+
+/**
+ * Class Blog
+ */
 class Blog
 {
     public $ksdb = '';
@@ -82,6 +86,10 @@ class Posts extends Blog{
         include_once 'frontend/templates/'.$template;
     }
 }
+
+/**
+ * Class Comments
+ */
 class Comments extends Blog{
     public function __construct(){
         parent::__construct();

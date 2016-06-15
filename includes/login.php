@@ -20,13 +20,17 @@ class Login{
         } elseif (!empty($_GET['status']) && $_GET['status'] == 'inactive'){
             $error = 'You have been logged out due to inactivity. Please log in again.';
         }
-        require_once 'admin/templates/loginform.php';
+        require_once '../admin/templates/loginform.php';
     }
 
     public function loginSuccess(){
         header('Location: http://' . $_SERVER['SERVER_NAME'] .'/admin/posts.php');
         return;
     }
+
+    /**
+     * @return string
+     */
     public function loginFail(){
         return 'Your Username/Password was incorrect';
     }

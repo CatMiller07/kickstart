@@ -25,4 +25,4 @@
         </div>
     </div>
 </form>
-<?php require_once '_inc/footer.php'; ?>
+<?php require_once 'temps/footer.php'; ?>
