@@ -7,6 +7,7 @@
  */
 
 require_once('database.php');
+
 class Login{
     public function __construct(){
         $this->ksdb = new Database;

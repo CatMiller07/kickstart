@@ -6,7 +6,7 @@
  * Time: 7:53 PM
  */
 ?>
-<?php require_once 'temps/header.php'; ?>
+<?php require_once '../temps/header.php'; ?>
 <form action="<?php echo $this->base->url.'/posts.php?action=save'; ?>"method="POST">
     <h3>
         New Post
@@ -25,4 +25,4 @@
         </div>
     </div>
 </form>
-<?php require_once 'temps/footer.php'; ?>
+<?php require_once '/temps/footer.php'; ?>
