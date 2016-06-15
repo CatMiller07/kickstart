@@ -7,33 +7,36 @@
  ******/
 
 require_once('database.php');
-class Blog{
+class Blog
+{
     public $ksdb = '';
     public $base = '';
 
     /**
      * Blog constructor.
      */
-    public function __construct(){
-        parent::__construct();
+    public function __construct()
+    {
+       // parent::__construct();
         $this->comments = new Comments();
-        if(!empty($_GET{'id'})){
+        if (!empty($_GET{'id'})) {
             $this->viewPost($_GET['id']);
-        } else{
+        } else {
             $this->getPosts();
         }
         /**$this->ksdb = new Database;
-           **this->base = new stdClass;
-           **$this->base->url = "http://".$_SERVER['SERVER_NAME'];
+         **this->base = new stdClass;
+         **$this->base->url = "http://".$_SERVER['SERVER_NAME'];
          ***/
     }
 }
 
 class Posts extends Blog{
-    public function __construct(){
-        parent::__construct();
-    }
+   public function __construct()
+   {
+       parent::__construct();
 
+   }
     /**
      *
      */
