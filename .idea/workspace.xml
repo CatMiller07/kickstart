@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd5ac66-1859-4d4d-b7c3-dd1e0d54eb7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/loginform.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/manageposts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/templates/newpost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/list-posts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/view-post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/admin.php" afterPath="$PROJECT_DIR$/includes/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/login.php" afterPath="$PROJECT_DIR$/includes/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/posts.php" afterPath="$PROJECT_DIR$/includes/posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates/newpost.php" afterPath="$PROJECT_DIR$/admin/templates/newpost.php" />
     </list>
     <ignored path="kickstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +36,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="posts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/posts.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -57,89 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/view-post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-posts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/list-posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-              <folding>
-                <marker date="1465945546267" expanded="true" signature="1226:1281" ph="SELECT * FRO... users" />
-                <marker date="1465945546267" expanded="true" signature="1226:1283" ph="SELECT * FRO... users" />
-                <marker date="1465945546267" expanded="true" signature="1226:1341" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginform.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/loginform.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-              <folding>
-                <marker date="1465947167390" expanded="true" signature="558:577" ph="SELECT * FRO... posts" />
-                <marker date="1465947167390" expanded="true" signature="1859:1909" ph="INSERT INTO posts... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manageposts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/manageposts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newpost.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newpost.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/templates/newpost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,8 +79,8 @@
         <option value="$PROJECT_DIR$/admin/templates/loginform.php" />
         <option value="$PROJECT_DIR$/includes/admin.php" />
         <option value="$PROJECT_DIR$/admin/templates/manageposts.php" />
-        <option value="$PROJECT_DIR$/admin/templates/newpost.php" />
         <option value="$PROJECT_DIR$/includes/posts.php" />
+        <option value="$PROJECT_DIR$/admin/templates/newpost.php" />
       </list>
     </option>
   </component>
@@ -294,6 +209,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temps" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kickstart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kickstart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -384,15 +317,15 @@
       <workItem from="1465772153888" duration="4182000" />
       <workItem from="1465789458096" duration="653000" />
       <workItem from="1465868203324" duration="2089000" />
-      <workItem from="1465942487588" duration="8867000" />
+      <workItem from="1465942487588" duration="9401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18351000" />
+    <option name="totallyTimeSpent" value="18885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="72" width="1936" height="905" extended-state="1" />
+    <frame x="-1" y="72" width="1936" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -483,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/newpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates/manageposts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -524,18 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <marker date="1465945546267" expanded="true" signature="1226:1281" ph="SELECT * FRO... users" />
-            <marker date="1465945546267" expanded="true" signature="1226:1283" ph="SELECT * FRO... users" />
-            <marker date="1465945546267" expanded="true" signature="1226:1341" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/list-posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -556,6 +467,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <marker date="1465945546267" expanded="true" signature="1226:1281" ph="SELECT * FRO... users" />
+            <marker date="1465945546267" expanded="true" signature="1226:1283" ph="SELECT * FRO... users" />
+            <marker date="1465945546267" expanded="true" signature="1226:1341" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -564,6 +487,14 @@
             <marker date="1465953087076" expanded="true" signature="917:936" ph="SELECT * FRO... posts" />
             <marker date="1465953087076" expanded="true" signature="1586:1618" ph="SELECT * FRO... posts" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/newpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
